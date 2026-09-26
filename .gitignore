@@ -1,0 +1,28 @@
+# ESP-IDF build output
+build/
+**/build/
+
+# ESP-IDF generated configuration
+sdkconfig
+sdkconfig.old
+**/sdkconfig
+**/sdkconfig.old
+
+# IDE / editor files
+.vscode/
+**/.vscode/
+
+# Clangd generated/local configuration
+.clangd
+**/.clangd/
+
+# Build logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
